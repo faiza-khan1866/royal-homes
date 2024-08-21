@@ -1,0 +1,176 @@
+#new_portolio_inner_details .sub_details {
+  border-top: 1px solid #000;
+  padding-top: 30px;
+  font-size: var(--subHeading);
+  font-weight: 400;
+}
+#new_portolio_inner_details .videoContainer {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+}
+#new_portolio_inner_details .sectin_subTitle {
+  color: #000;
+}
+#new_portolio_inner_details .videoContainer .VideoSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+#new_portolio_inner_details .videoContainer .Video_section {
+  max-height: 500px;
+  width: auto;
+}
+#new_portolio_inner_details .Divider {
+  margin: 20px auto;
+  margin-bottom: 40px;
+  display: block;
+  border: 1px solid rgb(101, 101, 101);
+  width: 100%;
+  height: 1px;
+}
+#new_portolio_inner_details h3 {
+  font-size: var(--subHeading);
+  color: var(--primaryColor);
+  font-weight: 600;
+}
+#new_portolio_inner_details .subHeading {
+  color: var(--primaryColor);
+}
+#new_portolio_inner_details p {
+  color: #000;
+  font-weight: 500;
+  line-height: 30px;
+}
+#new_portolio_inner_details .Par_containerKS9 {
+  margin-bottom: 30px;
+}
+#new_portolio_inner_details .banner_img {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  max-height: 500px;
+}
+#new_portolio_inner_details .side_img {
+  position: relative;
+  right: 0;
+  max-height: 500px;
+  width: 100%;
+}
+#new_portolio_inner_details .side-img-container .title-container {
+  height: 100%;
+  position: relative;
+}
+.title-container h3 {
+  position: absolute;
+  bottom: 0;
+  right: -200px;
+  -ms-transform-origin-y: 0;
+  -webkit-transform-origin-y: 0;
+  transform-origin: 30px 0;
+  transform: rotate(-90deg);
+}
+#new_portolio_inner_details .normal-subtitle {
+  display: none;
+}
+#new_portolio_inner_details .img-inner {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+}
+#new_portolio_inner_details .img-inner img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+#new_portolio_inner_details .img-details-inner {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+#new_portolio_inner_details .img-details-inner p {
+  color: #fff;
+  padding-top: 25px;
+}
+#new_portolio_inner_details .img-details-inner span {
+  height: 1px;
+  width: 70%;
+  background-color: #fff;
+}
+#new_portolio_inner_details .img-details-inner h2 {
+  color: #fff;
+  font-size: var(--heroFont);
+  padding-bottom: 25px;
+}
+
+#new_portolio_inner_details .Gallery_wrapper {
+  background-color: #fff;
+}
+
+#new_portolio_inner_details .Gallery_wrapper .title {
+  text-align: left;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  gap: 30px;
+}
+
+#new_portolio_inner_details .Gallery_wrapper .title .BeforeAfter {
+  color: rgba(125, 125, 125, 0.5);
+  border-left: 1px solid var(--primaryColor);
+  padding-left: 30px;
+}
+
+#new_portolio_inner_details .Finishing_Gallery_wrapper {
+  padding: 60px 0;
+  background-color: #000;
+}
+#new_portolio_inner_details .Finishing_Gallery_wrapper h2 {
+  color: #fff;
+}
+#new_portolio_inner_details .UpperCasetext {
+  text-transform: uppercase;
+}
+@media (max-width: 765px) {
+  #new_portolio_inner_details .videoContainer {
+    width: 100%;
+  }
+  #new_portolio_inner_details .img-details-inner {
+    padding: 30px;
+    padding-top: 50px;
+  }
+  #new_portolio_inner_details .normal-subtitle {
+    display: block;
+    margin-bottom: 30px;
+  }
+  #new_portolio_inner_details .rotate-subtitle {
+    display: none;
+  }
+}
+@media (max-width: 420px) {
+  #new_portolio_inner_details .Gallery_wrapper .title {
+    flex-direction: column;
+  }
+  #new_portolio_inner_details .Gallery_wrapper .title .BeforeAfter {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+@media (min-width: 1600px) {
+  #new_portolio_inner_details .Gallery_wrapper .container {
+    max-width: 70% !important;
+  }
+}

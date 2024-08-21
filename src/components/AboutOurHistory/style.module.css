@@ -1,0 +1,156 @@
+.aboutHistorySection {
+  position: relative;
+  background-color: #111;
+  padding: 50px 0;
+  background-image: url("../../img/logoSIdeWhite.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: 1% 98%;
+}
+.title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.title_container h2 {
+  color: #fff;
+}
+.title_container h3 {
+  margin: auto 0;
+}
+.history_card_wrapper {
+  position: relative;
+  margin-bottom: 30px;
+}
+.history_card_container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: auto;
+  gap: 40px;
+  /* max-width: 250px; */
+  margin: 0 20px;
+}
+.card_details p {
+  font-size: 18px;
+  text-align: left;
+}
+.img_thumb {
+  position: relative;
+}
+.yearName {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  color: #111;
+  padding: 5px 8px;
+  font-weight: 600;
+}
+.history_BarWrapper {
+  width: 100%;
+  position: relative;
+}
+.histry_bar {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primaryColor);
+  top: 62%;
+}
+.histry_bar span {
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--primaryColor);
+  bottom: -4px;
+  /* left: 0; */
+  /* opacity: 0; */
+  /* transition: 0.3s; */
+}
+.history_BarWrapper_whole {
+  width: 100%;
+  position: relative;
+}
+.histry_bar_whole {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primaryColor);
+  bottom: -339px;
+}
+.histry_bar_whole span {
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--primaryColor);
+  bottom: -4px;
+  /* left: 0; */
+  /* opacity: 0; */
+  /* transition: 0.3s; */
+}
+
+.history_card_wrapper:hover .histry_bar span {
+  /* left: 20%; */
+  /* opacity: 1; */
+  /* transition: 0.3s; */
+}
+.Button_contianer {
+  position: relative;
+}
+.slide_change_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.slide_change_btn .change_btn {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 13px;
+  width: max-content;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.slide_change_btn .change_btn:hover {
+  background-color: var(--primaryColor);
+  transition: 0.3s;
+}
+
+@media (min-width: 2000px) {
+  .aboutHistorySection {
+    background-size: 500px;
+  }
+}
+@media (min-width: 450px) and (max-width: 765px) {
+  .histry_bar {
+    width: 80%;
+    left: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .histry_bar {
+    top: 65%;
+  }
+  .histry_bar span {
+    bottom: -4px;
+  }
+  .title_container {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 80px;
+  }
+}

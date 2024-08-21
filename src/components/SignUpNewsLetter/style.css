@@ -1,0 +1,57 @@
+#sign-up-newsletter {
+  position: relative;
+  margin: 50px 0;
+  /* margin-top: 120px; */
+  background-color: var(--primaryColor);
+  min-height: 400px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#sign-up-newsletter .Img_side {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.signup-form-contianer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 50px;
+}
+.Signup_title {
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+.signup-form-contianer .Signup_title,
+.signup-form-contianer p {
+  z-index: 2;
+  color: #fff;
+}
+.signup-form-contianer .form-signup-input {
+  border-radius: 0;
+}
+
+.signup-form-contianer .from-signpu-btn {
+  height: 100%;
+  background-color: #000;
+  color: white;
+  border-radius: 0;
+  letter-spacing: 1px;
+  width: 160px;
+}
+@media (max-width: 975px) {
+  .signup-form-contianer {
+    padding-right: 0;
+  }
+  #sign-up-newsletter {
+    margin: 50px 0;
+  }
+  .Signup_title {
+    font-size: 1.5rem;
+  }
+  .signup-form-contianer .from-signpu-btn {
+    letter-spacing: 0;
+    font-size: var(--bodySecondaryFontSize);
+  }
+}

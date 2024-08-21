@@ -1,0 +1,128 @@
+/* ===================== SERVICE ======================*/
+.Service_list_area {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Service_list_area img {
+  position: relative;
+  z-index: -1;
+}
+.Service_list_area .fit_out_area_box {
+  text-align: right;
+  padding: 0 5rem 0 2rem;
+}
+
+.Service_list_area .fit_out_area_box h3 {
+  color: #000;
+  font-size: var(--subHeading);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.ContainerBOrder {
+  position: relative;
+}
+.Service_list_area .fit_out_area_box {
+  max-width: 800px;
+  margin: auto;
+  margin-right: 0;
+}
+.Service_list_area .fit_out_area_box p {
+  color: #000;
+  font-weight: 500;
+  font-size: var(--bodySecondaryFontSize);
+}
+
+.Service_list_area .fit_out_area_box .btn-fill {
+  border-width: 1px;
+  margin-top: 1rem;
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
+  color: #fff;
+}
+.Service_list_area .fit_out_area_box .btn-fill:hover {
+  background: #fff;
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+.Service_list_area .fit_out_area_box .btn-border:hover {
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
+  color: #fff;
+}
+
+.Service_list_area .Button_contianer {
+  position: relative;
+}
+.Service_list_area .slide_change_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 30px;
+  width: 100%;
+  margin-top: 20px;
+}
+.Service_list_area .fit_out_area_box {
+  padding-top: 40px;
+}
+
+.Service_list_area .slide_change_btn .change_btn {
+  color: #333;
+  border: 2px solid #333;
+  padding: 13px;
+  width: max-content;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.Service_list_area .slide_change_btn .change_btn:hover {
+  background-color: var(--primaryColor);
+  transition: 0.3s;
+}
+.Service_list_area4s5 .slick-prev:before,
+.Service_list_area4s5 .slick-next:before {
+  color: var(--primaryColor);
+}
+/*Responsive*/
+@media (min-width: 1600px) {
+  .Service_list_area .container {
+    max-width: 70%;
+  }
+  .Service_list_area img {
+    max-height: 600px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1080px) {
+  .BorderTesting21 {
+    display: none;
+  }
+}
+@media (max-width: 995px) {
+  .Service_list_area .Button_contianer {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Service_list_area .fit_out_area_box {
+    padding-top: 0;
+  }
+  .Service_list_area .fit_out_area_box {
+    margin-bottom: 30px;
+  }
+  .Service_list_area .fit_out_area_box {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Service_list_area .fit_out_area_box {
+    padding: 0 2rem 0 2rem;
+  }
+}

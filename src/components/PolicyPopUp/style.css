@@ -1,0 +1,21 @@
+.PrivacyPolicy_list li {
+  list-style: outside !important;
+}
+.PrivacyPolicy_list {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.PolicyContainer {
+  position: relative;
+}
+.PolicyBG {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-position: 50% 20%;
+  /* background-image: url(../../img/logoNoBG.png); */
+  background-image: url(../../img/logo.png);
+  background-size: contain;
+  opacity: 0.1;
+}

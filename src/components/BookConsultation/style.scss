@@ -1,0 +1,43 @@
+.ConsultationButton {
+  display: none;
+  flex-direction: column;
+  z-index: 200;
+  position: fixed;
+  bottom: 120px;
+  right: 15px;
+  .CancellLogo {
+    margin-right: 100%;
+    cursor: pointer;
+  }
+  .ConsultationIconWrapper {
+    background-color: var(--primaryLightColor);
+    padding: 15px 15px;
+    border-radius: 100%;
+  }
+  .ConsultationIcon {
+    color: #fff;
+  }
+}
+.SHow {
+  opacity: 1;
+  transition: 0.3s;
+}
+.Hide {
+  opacity: 0;
+  transition: 0.3s;
+  bottom: 200px;
+}
+@media (max-width: 580px) {
+  .ConsultationButton {
+    display: flex;
+    .CancellLogo {
+      margin-right: 100%;
+      cursor: pointer;
+    }
+  }
+  .Hide {
+    opacity: 0;
+    transition: 0.3s;
+    bottom: 100px;
+  }
+}

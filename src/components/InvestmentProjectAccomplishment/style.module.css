@@ -1,0 +1,107 @@
+.InvestmentProjectAccomplishment {
+  text-align: center;
+}
+.AccompCard {
+  margin: 0 30px;
+  margin-top: 20px;
+}
+
+.cardDetails {
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-direction: column;
+  text-align: left;
+}
+.title,
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.details_ROIInvest {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.address,
+.Detials_icon {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.address p,
+.address a {
+  color: #222;
+}
+.Detials_icon_ROIt {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.ROITitle {
+  text-align: right;
+}
+.ROIINvestment {
+  color: green;
+  font-size: 20px;
+}
+.cardDetails h4 {
+  font-size: var(--subSecHeading);
+}
+.cardDetails h5 {
+  font-size: var(--bodyMainFontSize);
+}
+.cardDetails .RantSPan {
+  font-weight: 400;
+}
+.Icon {
+  color: var(--primaryColor);
+}
+.ViewProjct {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.Slider_changeCont {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SliderChange {
+  color: black;
+  outline: 1px solid #111;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.SliderChange:hover {
+  background-color: var(--primaryColor);
+  transition: 0.3s;
+}
+.Amanities {
+  /* display: flex;
+  gap: 20px;
+  flex-wrap: wrap; */
+}
+.amanities_Details {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.AmetIcon {
+  height: 20px;
+  width: 20px;
+}
+.GalleryImgSize {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+@media (max-width: 700px) {
+  .AccompCard {
+    /* margin: 0 5px; */
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,29 @@
+.appointment-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 200;
+}
+.appt-btn {
+  background-color: var(--primaryColor);
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid red;
+  border-radius: 40px;
+}
+.Rkt9F4BV7O3LQSywHdJy::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .appt-btn {
+    padding: 15px 22px;
+    font-size: 18px;
+  }
+
+  .appointment-btn {
+    bottom: 10px;
+    right: 20px;
+  }
+}

@@ -1,0 +1,126 @@
+.Maintance_page {
+  padding-top: 100px;
+}
+.Maintance_detials {
+  text-align: left;
+  padding-right: 50px;
+}
+
+.Maintance_detials p {
+  font-size: var(--bodyMainFontSize);
+  color: #000;
+  margin-top: 20px;
+  line-height: 30px;
+}
+.service_benefits {
+  background-color: #000;
+  margin: 40px 0;
+  padding: 30px 0;
+}
+.card_section_title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.slide_change_btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+}
+.prev_btn,
+.next_btn {
+  color: #fff;
+  padding: 8px 12px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  height: max-content;
+  width: max-content;
+  transition: 0.3s;
+}
+.prev_btn:hover {
+  background-color: var(--primaryColor);
+  transition: 0.3s;
+}
+.next_btn:hover {
+  background-color: var(--primaryColor);
+  transition: 0.3s;
+}
+
+.service_benefits .Title,
+.service_benefits p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.Title {
+  font-size: var(--subHeading);
+  flex: 1;
+  min-height: 60px;
+}
+.Detials {
+  flex: 1;
+  font-size: var(--bodySecondaryFontSize);
+}
+.card {
+  padding: 30px;
+  border: 1px solid var(--primaryColor);
+  text-align: center;
+  margin: 20px 0;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card_icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 20px;
+  flex: 1;
+}
+.Icon {
+  color: var(--primaryColor);
+}
+.readMore {
+  color: var(--primaryColor);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.readMore:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+.ENqueiryWrapper {
+  flex: 1;
+}
+.EnquiryBtn {
+  color: #fff;
+  padding: 20px;
+  border: 1px solid var(--primaryColor);
+  transition: 0.3s;
+}
+.EnquiryBtn:hover {
+  border: 1px solid #fff;
+  transition: 0.3s;
+}
+/* responsiveness  */
+@media (max-width: 767px) {
+  .Maintance_detials {
+    text-align: left;
+    padding-right: 20px;
+  }
+  .Maintance_detials p {
+    margin-bottom: 20px;
+  }
+  .card_section_title {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .Maintance_page {
+    padding-bottom: 50px;
+  }
+}

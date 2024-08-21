@@ -1,0 +1,36 @@
+.investmentAccomplish442ss .slick-prev:hover:before,
+.investmentAccomplish442ss .slick-prev:before,
+.investmentAccomplish442ss .slick-next:before,
+.investmentAccomplish442ss .slick-next:before {
+  opacity: 1;
+  color: var(--primaryColor);
+  font-size: 30px;
+}
+.investmentAccomplish442ss .More_btnFill:hover {
+  color: var(--primaryColor);
+  transition: 0.3s;
+}
+.investmentAccomplish442ss .slick-prev {
+  position: absolute;
+  left: -30px !important;
+}
+.investmentAccomplish442ss .slick-next {
+  position: absolute;
+  right: -20px !important;
+}
+@media (max-width: 765px) {
+  .investmentAccomplish442ss .slick-prev:hover:before,
+  .investmentAccomplish442ss .slick-prev:before,
+  .investmentAccomplish442ss .slick-next:before,
+  .investmentAccomplish442ss .slick-next:before {
+    font-size: 35px;
+  }
+  .investmentAccomplish442ss .slick-prev {
+    position: absolute;
+    left: -38px !important;
+  }
+  .investmentAccomplish442ss .slick-next {
+    position: absolute;
+    right: -23px !important;
+  }
+}

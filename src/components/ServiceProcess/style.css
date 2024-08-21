@@ -1,0 +1,143 @@
+/* ===================== SERVICE ======================*/
+.service_process_area {
+  background: #000;
+}
+
+.service_process_area .service_process_box {
+  text-align: left;
+}
+.service_process_area .slick-list {
+  margin: 0 -10px;
+}
+.service_process_area .slick-slide > div {
+  padding: 0 10px;
+}
+
+.service_process_area h2 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+  color: #fff;
+  text-align: center;
+}
+.service_process_area h2 span {
+  color: var(--primaryColor);
+  text-transform: uppercase;
+  font-size: var(--subHeading);
+}
+.service_process_area .service_process_box .service_title {
+  font-size: var(--bodyMainFontSize);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 0.5rem;
+}
+.service_process_area .Para_details {
+  text-align: justify;
+  /* list-style: inside; */
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.service_process_area .Para_details::before {
+  content: "●";
+  color: var(--primaryColor);
+}
+.service_process_area .service_process_box .img_wrape img {
+  margin-bottom: 0.5rem;
+  width: 30px;
+}
+.service_process_area .service_process_box p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.service_process_area .Button_contianer {
+  position: relative;
+}
+.service_process_area .slide_change_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.service_process_area .slide_change_btn .change_btn {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5px;
+  width: max-content;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.service_process_area .slide_change_btn .change_btn:hover {
+  background-color: var(--primaryColor);
+  transition: 0.3s;
+}
+.service_process_area252 .More_btnFill:hover {
+  color: var(--primaryColor);
+  transition: 0.3s;
+}
+.service_process_area252 .slick-dots li button:before {
+  color: #fff;
+}
+.service_process_area252 .slick-dots .slick-active button:before {
+  color: red;
+}
+
+.service_process_area252 .slick-prev:before,
+.service_process_area252 .slick-next:before,
+.service_process_area252 .slick-next:before {
+  opacity: 1;
+  color: var(--primaryColor);
+  font-size: 30px;
+}
+.service_process_area252 .slick-prev:hover:before,
+.service_process_area252 .slick-next:hover:before {
+  color: var(--primaryLightColor);
+}
+
+.service_process_area252 .slick-next {
+  position: absolute;
+  top: -50px;
+}
+.service_process_area252 .slick-prev {
+  position: absolute;
+  top: -50px;
+}
+
+/*Responsive*/
+@media (min-width: 1600px) {
+  .service_process_area252 .container {
+    max-width: 70%;
+  }
+}
+/*Responsive*/
+@media (max-width: 767px) {
+  .service_process_area .service_process_box {
+    margin-bottom: 30px;
+  }
+
+  .service_process_area .service_process_box .service_title {
+    font-size: var(--subHeading);
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_process_area h2 {
+    font-size: var(--subHeading);
+  }
+  .service_process_area .service_process_box {
+    margin-bottom: 30px;
+  }
+}

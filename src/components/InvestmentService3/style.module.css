@@ -1,0 +1,98 @@
+/* ===================== SERVICE ======================*/
+.service_interior_area {
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+.InvestmentWrapper {
+  background-color: #000;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.service_interior_area img {
+  position: relative;
+  z-index: -1;
+}
+.service_interior_area .investMent_service_Box {
+  text-align: left;
+}
+.service_interior_area img {
+  z-index: 2;
+}
+.CompVideo {
+  margin-top: 30px;
+  width: 100%;
+}
+.service_interior_area .investMent_service_Box h4 {
+  color: #fff;
+  font-size: var(--bodyMainFontSize);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0.7rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.service_interior_area .investMent_service_Box h3 {
+  color: #fff;
+  font-size: var(--subHeading);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+}
+.service_interior_area .investMent_service_Box h3::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #fff;
+  width: 30%;
+  right: 0;
+  top: 100%;
+}
+.service_interior_area .investMent_service_Box p {
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  font-size: var(--bodySecondaryFontSize);
+}
+
+.service_interior_area .investMent_service_Box .btn-border {
+  border-width: 1px;
+  margin-top: 1rem;
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
+  color: #fff;
+}
+.service_interior_area .investMent_service_Box .btn-border:hover {
+  background: #fff;
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+/*Responsive*/
+@media (max-width: 767px) {
+  .service_interior_area .investMent_service_Box {
+    margin-top: 30px;
+  }
+  .service_interior_area .investMent_service_Box {
+    padding: 0;
+  }
+  .service_interior_area .investMent_service_Box h3::before {
+    left: 0;
+    top: 110%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_interior_area .investMent_service_Box {
+    padding: 0 0 0 2rem;
+  }
+  .service_interior_area .investMent_service_Box h3::before {
+    left: -120px;
+  }
+}
+@media (max-width: 420px) {
+  .InvestmentWrapper {
+    padding-top: 30px;
+  }
+}

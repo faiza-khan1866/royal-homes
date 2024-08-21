@@ -1,0 +1,117 @@
+.aboutGoal_section {
+  padding: 50px 0 150px 0;
+}
+.title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+.title_container h3 {
+  margin: auto 0;
+}
+.featuredImg {
+  width: 100%;
+}
+.featuredImg img {
+  width: 100%;
+}
+.missionDetails {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  /* margin-bottom: 80px; */
+  height: 100%;
+  gap: 15px;
+  padding-right: 40px;
+}
+.missionDetails p {
+  height: 100%;
+  transition: 0.6s;
+}
+.missionTitle {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  gap: 30px;
+}
+.missionTitle span {
+  position: absolute;
+  height: 3px;
+  width: 200px;
+  background-color: #111;
+  bottom: -5px;
+  right: -8%;
+  z-index: 9999;
+}
+.subtitle_main {
+  color: #111 !important;
+}
+.missionTitle .titleDivider {
+  border-right: 3px solid rgba(0, 0, 0, 0.3);
+  padding-right: 20px;
+  width: 20px;
+  height: 100%;
+}
+.subtitle_dim {
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+.missionDetails p {
+  width: 80%;
+  color: #111;
+  font-weight: 500;
+}
+.Button_contianer {
+  position: relative;
+}
+.slide_change_btn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.slide_change_btn .change_btn {
+  color: #333;
+  border: 2px solid #333;
+  padding: 13px;
+  width: max-content;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.slide_change_btn .change_btn:hover {
+  background-color: var(--primaryColor);
+  transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  .title_container {
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .aboutGoal_section {
+    /* padding-left: 30px;
+    padding-right: 30px; */
+  }
+  .missionTitle span {
+    display: none;
+  }
+  .missionDetails {
+    text-align: left;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 0;
+    gap: 10px;
+  }
+  .missionDetails p {
+    width: 100%;
+  }
+}

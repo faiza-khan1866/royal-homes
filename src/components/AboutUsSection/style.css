@@ -1,0 +1,197 @@
+/* ===================== ABOUT ======================*/
+.about-area {
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about-top {
+  text-align: center;
+  padding: 0 100px;
+  margin-bottom: 30px;
+}
+.about-area .about-btn {
+  background-color: var(--primaryColor);
+  color: #fff;
+  padding: 15px 25px;
+  transition: 0.6s;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.about-area .BoldWOrldABoutUs {
+  font-weight: 600;
+}
+.about-area .about-btn:hover {
+  background-color: transparent;
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  transition: 0.6s;
+}
+.about-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about_details {
+  font-weight: 500;
+  font-size: var(--subSecHeading);
+  line-height: 40px;
+}
+.about_signature_now {
+  font-size: var(--subSecHeading) !important;
+  font-weight: 400 !important;
+}
+.about_signature_title {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #000;
+}
+
+.counter-box {
+  padding-left: 20%;
+  margin-bottom: 30px;
+}
+
+.counter-box h2 {
+  /* font-size: 48px; */
+  font-size: var(--mainHeading);
+  margin: 0;
+  /* line-height: 40px; */
+  margin-bottom: 5px;
+}
+
+.counter-box p {
+  line-height: 24px;
+  color: #4a4a4a;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.about-signature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.signature-left {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 2px solid #000;
+}
+
+.signature-right h3 {
+  color: #000;
+  font-size: 26px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.signature-right p {
+  margin: 0;
+}
+.about-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  margin: 20px auto;
+}
+.about-card .icon-container .IconStyle {
+  font-size: 40px;
+  color: var(--primaryColor);
+  font-weight: bold;
+}
+.about-card .icon-container .TextStyle {
+  margin-bottom: -12px;
+  font-size: 35px;
+  color: var(--primaryColor);
+  font-weight: bold;
+  text-align: center;
+}
+.about-card .Count_holder {
+  font-size: var(--mainHeading);
+  font-weight: 600;
+  color: #222;
+}
+.about-card .count-title {
+  /* font-size: 20px; */
+  text-align: center;
+  font-size: var(--bodyMainFontSize);
+  font-weight: 600;
+  color: #222;
+}
+/*Responsive*/
+@media (max-width: 767px) {
+  .signature-left {
+    width: 50%;
+  }
+  .about-top {
+    text-align: left;
+    padding: 0;
+  }
+  .about-card {
+    margin: 20px auto;
+  }
+  .signature-right h3 {
+    font-size: 22px;
+  }
+  .about_signature_now {
+    font-size: 16px !important;
+  }
+  .about-counter {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .counter-box {
+    padding-left: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .counter-box h2 {
+    font-size: var(--mainHeading);
+  }
+  .counter-box p {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  .about-text {
+    overflow: hidden;
+  }
+  .about-area {
+    padding-top: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .counter-box {
+    padding-left: 10%;
+  }
+  .counter-box h2 {
+    font-size: var(--mainHeading);
+    line-height: 36px;
+  }
+}

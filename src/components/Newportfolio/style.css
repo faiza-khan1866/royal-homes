@@ -1,0 +1,123 @@
+/* ===================== PORTFOLIO ======================*/
+
+.new-portfolio-page .img-list_contianer {
+  position: relative;
+}
+.new-portfolio-page .sub_details {
+  color: var(--primaryColor);
+  font-size: var(--subHeading);
+}
+.new-portfolio-page .img-deaitls .section-title {
+  max-width: 250px;
+  text-transform: uppercase;
+  font-size: var(--secHeading);
+}
+.new-portfolio-page .img-deaitls .sub-title {
+  text-transform: uppercase;
+  font-size: var(--subSecHeading);
+}
+.new-portfolio-page .Main_Img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 100%;
+}
+.new-portfolio-page32809j .More_btnFill_portfolio:hover {
+  color: var(--primaryColor);
+}
+
+.new-portfolio-page .featuredImage {
+  height: 700px;
+}
+.new-portfolio-page .img-deaitls {
+  position: absolute;
+
+  right: -30px;
+  bottom: -30px;
+  background-color: #fff;
+  padding: 30px;
+  opacity: 0;
+  transition: 0.3s;
+  visibility: hidden;
+}
+.new-portfolio-page .img-list_contianer:hover .img-deaitls {
+  opacity: 1;
+  transition: 0.3s;
+  right: 0;
+  bottom: 0;
+  visibility: visible;
+}
+
+.new-portfolio-page .img-list_contianer img {
+  width: 100%;
+}
+.new-portfolio-page .nav-page-btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+.new-portfolio-page .nav-page-btn .nav-btn1 {
+  padding: 10px;
+  border: 2px solid #000;
+  color: #000;
+  width: max-content;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.new-portfolio-page .nav-page-btn .nav-btn1:hover {
+  border: 2px solid var(--primaryColor);
+  color: var(--primaryColor);
+  transition: 0.3s;
+}
+.img-list_contianer .sec-btn {
+  border: 1px solid #000;
+  padding: 15px;
+  margin-top: 10px;
+}
+.img-list_contianer .sec-btn:hover {
+  border: 1px solid var(--primaryColor);
+}
+
+@media (min-width: 1600px) {
+  .new-portfolio-page32809j .container {
+    /* max-width: 70%; */
+  }
+}
+@media (min-width: 1440px) {
+  .new-portfolio-page .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .new-portfolio-page .Main_Img {
+    height: 650px;
+  }
+  .new-portfolio-page .featuredImage {
+    height: 700px;
+  }
+}
+
+@media (max-width: 600px) {
+  .new-portfolio-page .nav-page-btn {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 420px) {
+  .new-portfolio-page .img-deaitls {
+    opacity: 1;
+    transition: 0.3s;
+    right: 0;
+    bottom: 0;
+  }
+  .new-portfolio-page .Main_Img {
+    height: 600px;
+  }
+  .new-portfolio-page .featuredImage {
+    height: 600px;
+  }
+}

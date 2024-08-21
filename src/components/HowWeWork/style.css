@@ -1,0 +1,145 @@
+.HomeHowWeWork {
+  background-color: #000;
+  padding: 50px 0;
+}
+.TimeLine_desktop {
+  display: inline-block;
+}
+.TimeLine_mobil {
+  display: none;
+}
+.HomeHowWeWork .timeline-details {
+  color: white !important;
+}
+.timeline-container {
+  padding-top: 80px;
+}
+.HomeHowWeWork .SliderAbout_Button {
+  margin-top: 25px;
+}
+.HomeHowWeWork .about-btn {
+  background-color: var(--primaryColor);
+  color: #fff;
+  padding: 15px 25px;
+  transition: 0.6s;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.HomeHowWeWork .about-btn:hover {
+  background-color: transparent;
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  transition: 0.6s;
+}
+.timeline-container .timeline-icons {
+  font-size: 24px;
+  margin-top: -19px;
+}
+.timeline-container .timeline-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.slider-container h2 {
+  color: #fff;
+}
+.work-image-container {
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 5px;
+}
+.work-image-container .image-before {
+  margin-bottom: 5px;
+}
+.work-image-container .card-details h2 {
+  color: #000;
+  font-size: var(--subHeading);
+}
+.image-before,
+.image-after {
+  position: relative;
+}
+.work-image-container .card-details {
+  width: max-content;
+  position: absolute;
+  /* z-index: 200; */
+  bottom: -20px;
+  right: -20px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: right;
+  scale: 0.7;
+  opacity: 0;
+  transition: 0.4s;
+}
+.work-image-container .card-title span {
+  color: var(--primaryColor);
+  font-size: 24px;
+  font-weight: bold;
+}
+.work-image-container .card-title {
+  width: max-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  text-align: left;
+}
+.work-image-container .card-titleLogo {
+  width: max-content;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  text-align: left;
+}
+.single-image-Container img {
+  width: 100% !important;
+}
+.single-image-Container:hover > .card-details {
+  opacity: 1;
+  bottom: 20px;
+  right: 20px;
+  transition: 0.4s;
+  scale: 1;
+}
+.HomeHowWeWork .slick-dots {
+  bottom: 5px;
+}
+.HomeHowWeWork .slick-dots li {
+  margin: 0;
+}
+.HomeHowWeWork .slick-dots li.slick-active button:before {
+  color: var(--primaryLightColor);
+}
+.HomeHowWeWork .slick-dots li button:before {
+  color: white;
+  font-size: 10px;
+  line-height: 80px;
+  opacity: 1;
+}
+
+.HomeHowWeWork434s .LogoContainer img {
+  height: 60px;
+  width: 70px !important;
+}
+@media (max-width: 975px) {
+  .HomeHowWeWork .slick-dots li button:before {
+    line-height: 20px;
+  }
+  .HomeHowWeWork .slick-dots {
+    bottom: -20px;
+  }
+  .TimeLine_desktop {
+    display: none;
+  }
+  .TimeLine_mobil {
+    display: inline-block;
+  }
+}
+@media (max-width: 450px) {
+  .HomeHowWeWork434s .LogoContainer img {
+    height: 40px;
+    width: 55px !important;
+  }
+}

@@ -1,0 +1,40 @@
+.yarl__container {
+  background-color: rgba(17, 17, 17, 0.9);
+}
+
+.portFolioGallerySider .slick-prev:before,
+.portFolioGallerySider .slick-next:before,
+.portFolioGallerySider .slick-next:before {
+  opacity: 1 !important;
+  /* color: var(--primaryColor); */
+  color: #fff;
+  font-size: 28px;
+  transition: 0.3s;
+}
+.portFolioGallerySider .slick-prev:hover:before,
+.portFolioGallerySider .slick-next:hover:before {
+  color: var(--primaryLightColor);
+  transition: 0.3s;
+}
+.portFolioGallerySider .More_btnFill:hover {
+  color: var(--primaryColor);
+  transition: 0.3s;
+}
+.portFolioGallerySider .slick-slide img {
+  display: inline-block;
+}
+.portFolioGallerySider .slick-prev,
+.portFolioGallerySider .slick-next {
+  position: absolute !important;
+  top: 50% !important;
+  z-index: 100;
+  color: #fff;
+}
+.portFolioGallerySider .slick-next,
+.portFolioGallerySider .slick-next {
+  right: 10px !important;
+}
+.portFolioGallerySider .slick-prev,
+.portFolioGallerySider .slick-prev {
+  left: 2px !important;
+}

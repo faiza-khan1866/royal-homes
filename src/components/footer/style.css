@@ -1,0 +1,236 @@
+/* ===================== FOOTER ======================*/
+.footer-area {
+  background: #000;
+}
+
+.footer-top {
+  background: #000;
+  padding: 40px 0;
+}
+
+.footer-Middle {
+  width: max-content;
+  padding-left: 30px;
+}
+.single-footer-last {
+  padding-left: 30px;
+}
+.single-footer .footer_title {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.singleFooter_logo a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.single-footer img {
+  height: auto;
+  width: 70%;
+}
+.single-footer li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.single-footer li:last-child {
+  margin-bottom: 0;
+}
+
+.single-footer a,
+.single-footer p {
+  color: rgb(225, 225, 225);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.single-footer a:hover {
+  color: var(--primaryColor);
+}
+
+.footer-contact i {
+  color: rgba(255, 255, 255, 0.8);
+  margin-right: 5px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.footer-contact li {
+  color: #ccc;
+}
+
+.newsletter_form form {
+  position: relative;
+  height: 50px;
+}
+
+.newsletter_form input {
+  background: transparent;
+  font-weight: 600;
+  padding: 0;
+  height: 100%;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  top: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.newsletter_form button {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 24px;
+}
+
+.newsletter_form input:focus {
+  outline: none;
+}
+
+.newsletter_form {
+  margin-top: 35px;
+}
+
+ul.footer-contact {
+  /* padding-top: 20px; */
+  /* margin-top: 20px; */
+}
+
+.copyright {
+  padding-bottom: 30px;
+  text-align: center;
+  background: #000;
+}
+
+.copyright p {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+.copyright p span {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.fade_rule {
+  height: 1px;
+  background-color: rgba(119, 119, 119, 0.32);
+  width: 66em;
+  background-image: -webkit-linear-gradient(
+    right,
+    #000 2%,
+    rgba(119, 119, 119, 0.32) 50%,
+    #000 98%
+  );
+  background-image: linear-gradient(
+    to left,
+    #000 2%,
+    rgba(119, 119, 119, 0.32) 50%,
+    #000 98%
+  );
+  background-image: -webkit-linear-gradient(
+    to left,
+    #000 2%,
+    rgba(119, 119, 119, 0.32) 50%,
+    #000 98%
+  );
+  background-image: -ms-linear-gradient(
+    to left,
+    #000 2%,
+    rgba(119, 119, 119, 0.32) 50%,
+    #000 98%
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right bottom,
+    color-stop(0.02, #000),
+    color-stop(0.5, rgba(119, 119, 119, 0.32)),
+    color-stop(0.98, #000)
+  );
+  margin: auto;
+}
+.footer-border {
+  border: 1px solid rgb(172, 172, 172);
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.footer-border-left-none {
+  border-left: none;
+}
+.footer-border-right-none {
+  border-right: none;
+}
+.footer_Contact_main {
+  margin-top: 10px;
+  padding-left: 25px;
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.footer_Contact_main li a {
+  color: #fff;
+  font-size: 25px;
+}
+.copyright .LinkTextCOlr {
+  color: #fff;
+}
+.copyright .LinkTextCOlr:hover {
+  color: var(--primaryColor);
+}
+/*Responsive*/
+@media (max-width: 975px) {
+  .footer-border {
+    border: none;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    padding: 30px;
+  }
+  .footer-Middle {
+    padding-left: 0;
+  }
+  .single-footer-last {
+    padding-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .single-footer {
+    margin: 30px 0;
+  }
+  .single-footer p br {
+    display: none;
+  }
+  .footer-border {
+    border: none;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    padding: 30px;
+  }
+}
+@media (max-width: 580px) {
+  .footer_Contact_main {
+    margin-top: 20px;
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .single-footer {
+    margin: 30px 0;
+  }
+}

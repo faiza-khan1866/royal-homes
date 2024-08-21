@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /static/js/main.f40f74f2.js
+Disallow: /static/css/main.9ebc5f14.css

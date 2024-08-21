@@ -1,0 +1,96 @@
+/* ===================== SERVICE ======================*/
+.Investment_service_area {
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.Investment_service_area img {
+  position: relative;
+  z-index: -1;
+}
+.Investment_service_area .Img_container {
+  height: 100%;
+  width: 100%;
+  text-align: right;
+}
+.Investment_service_area .Img_container img {
+  height: 100%;
+  width: 100%;
+  max-height: 500px;
+}
+.Investment_service_area .investment_service_box {
+  /* padding: 0 0 0 5rem; */
+}
+.Investment_service_area img {
+  z-index: 2;
+}
+.Investment_service_area .investment_service_box h4 {
+  color: var(--primaryColor);
+  font-size: var(--bodyMainFontSize);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.Investment_service_area .investment_service_box h3 {
+  color: #000;
+  font-size: var(--subHeading);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+/* .Investment_service_area .investment_service_box h3::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #000;
+  width: 30%;
+  left: -80px;
+  top: 100%;
+} */
+.Investment_service_area .investment_service_box p {
+  color: #000;
+  font-weight: 500;
+  font-size: var(--bodySecondaryFontSize);
+}
+
+.Investment_service_area .investment_service_box .btn-border {
+  border-width: 1px;
+  margin-top: 1rem;
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
+  color: #fff;
+}
+.Investment_service_area .investment_service_box .btn-border:hover {
+  background: #fff;
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+/*Responsive*/
+@media (max-width: 767px) {
+  .Investment_service_area .investment_service_box {
+    margin-top: 30px;
+  }
+  .Investment_service_area .investment_service_box {
+    padding: 0;
+  }
+  .Investment_service_area .investment_service_box h3::before {
+    left: 0;
+    top: 110%;
+  }
+  .Investment_service_area {
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Investment_service_area .investment_service_box {
+    /* padding: 0 0 0 2rem; */
+  }
+  .Investment_service_area .investment_service_box h3::before {
+    left: -20px;
+  }
+}

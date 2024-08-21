@@ -1,0 +1,92 @@
+/* ===================== SERVICE ======================*/
+.residentail_fit_out_area {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.residentail_fit_out_area img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 750px;
+}
+
+.residentail_fit_out_area h2 {
+  color: #000;
+  font-size: var(--subHeading);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.residentail_fit_out_area46sa .ShowMore_container {
+  /* max-height: 750px; */
+  /* overflow-y: visible; */
+  /* overflow-x: hidden; */
+}
+.residentail_fit_out_area .residentail_fit_out_box {
+  padding: 1rem;
+  transition: all 0.2s ease-in;
+}
+.residentail_fit_out_area .residentail_fit_out_ShowMore {
+  padding: 1rem;
+}
+.residentail_fit_out_ShowMore .ShowMore {
+  cursor: pointer;
+  color: var(--primaryColor);
+}
+.residentail_fit_out_area .residentail_fit_out_box:hover {
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.residentail_fit_out_area .residentail_fit_out_box h3 {
+  color: #000;
+  font-size: var(--bodyMainFontSize);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.residentail_fit_out_area .residentail_fit_out_box p {
+  color: #000;
+  font-weight: 400;
+  font-size: var(--bodySecondaryFontSize);
+}
+
+.residentail_fit_out_area .residentail_fit_out_box .btn-border {
+  border: 0;
+  margin: 0;
+  background: transparent;
+  color: var(--primaryColor);
+  padding: 0;
+}
+.residentail_fit_out_area .residentail_fit_out_box .btn-border:hover {
+  border-bottom: 1px solid var(--primaryColor);
+}
+
+/*Responsive*/
+@media (min-width: 1600px) {
+  .residentail_fit_out_area46sa .container {
+    max-width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .residentail_fit_out_area .residentail_fit_out_box {
+    margin-bottom: 30px;
+  }
+
+  .residentail_fit_out_area img {
+    margin-bottom: 30px;
+  }
+}
+
+/*Responsive*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .residentail_fit_out_area .residentail_fit_out_box {
+    margin-bottom: 30px;
+  }
+  .residentail_fit_out_area img {
+    margin-bottom: 30px;
+  }
+}

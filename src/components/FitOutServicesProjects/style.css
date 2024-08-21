@@ -1,0 +1,219 @@
+/* ===================== SERVICE ======================*/
+.service_project_area {
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.service_project_area .slick-list {
+  margin: 0 -5px;
+}
+.service_project_area .slick-slide > div {
+  padding: 0 5px;
+}
+
+.fitoutServiceArea .PortFolioBtn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.fitoutServiceArea .service_project_box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.fitoutServiceArea .title {
+  flex: 2;
+  margin: auto auto;
+}
+.fitoutServiceArea .Details {
+  flex: 2.7;
+}
+.DialogImg {
+  width: 100%;
+  height: 100%;
+}
+.service_project_area .img_wrape {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  cursor: pointer;
+}
+.service_project_area .img_wrape img {
+  height: 100%;
+  width: 100%;
+}
+.service_project_area .img_wrape p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  color: var(--primaryColor);
+  padding: 1rem;
+  background: #fff;
+  opacity: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: var(--bodySecondaryFontSize);
+  transition: all 0.3s ease-in;
+  text-transform: uppercase;
+}
+.service_project_area .img_wrape:hover p {
+  opacity: 1;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.service_project_area .service_project_box h4 {
+  color: var(--primaryColor);
+  font-size: var(--bodyMainFontSize);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.service_project_area .service_project_box .Port_title {
+  color: #000;
+  font-size: var(--subHeading);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.service_project_area .service_project_box p {
+  color: #000;
+  font-weight: 500;
+  font-size: var(--bodySecondaryFontSize);
+}
+
+.service_project_area .service_project_box .btn-border {
+  border-width: 1px;
+  margin-top: 1rem;
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
+  color: #fff;
+}
+.service_project_area .service_project_box .btn-border:hover {
+  background: #fff;
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+.fitout_prevArrow_wrape {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -140px;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 0px;
+  padding: 0.26rem 0.4rem;
+  margin: 0;
+  margin-left: 5rem;
+  background: transparent;
+}
+.fitout_prevArrow_wrape:hover {
+  border: 1px solid var(--primaryColor);
+  background: var(--primaryColor);
+  color: #fff;
+}
+
+.fitout_nextArrow_wrape {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -60px;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 0px;
+  padding: 0.26rem 0.4rem;
+  margin: 0;
+  background: transparent;
+}
+.fitout_nextArrow_wrape:hover {
+  border: 1px solid var(--primaryColor);
+  background: var(--primaryColor);
+  color: #fff;
+}
+
+.Button_contianer {
+  position: relative;
+}
+.slide_change_btn {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.slide_change_btn .change_btn {
+  color: #333;
+  border: 2px solid #333;
+  padding: 13px;
+  width: max-content;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.slide_change_btn .change_btn:hover {
+  background-color: var(--primaryColor);
+  transition: 0.3s;
+}
+/*Responsive*/
+@media (min-width: 1600px) {
+  .service_project_areass45 .container {
+    max-width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .service_project_area .img_wrape p {
+    opacity: 1;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.1);
+  }
+  .fitoutServiceArea .title {
+    flex: 2;
+    margin: 0;
+  }
+  .fitoutServiceArea .service_project_box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .service_project_area .service_project_box {
+    margin-top: 30px;
+  }
+  .service_project_area .service_project_box {
+    padding: 0;
+  }
+  .fitout_prevArrow_wrape {
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_project_area .service_project_box {
+    padding: 0 2rem 0 2rem;
+  }
+  .fitout_prevArrow_wrape {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .fitout_prevArrow_wrape {
+    top: 110%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+
+  .fitout_nextArrow_wrape {
+    top: 110%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  .fitoutServiceArea .PortFolioBtn {
+    margin-top: 50px;
+  }
+}

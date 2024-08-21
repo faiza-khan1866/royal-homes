@@ -1,0 +1,120 @@
+/* ===================== SERVICE ======================*/
+.service_investment_area {
+  padding-top: 50px;
+}
+
+.service_investment_area .service_investment_box {
+  text-align: left;
+  padding: 0 2rem 0 5rem;
+}
+
+.service_investment_area .service_investment_box h3 {
+  color: #000;
+  font-size: var(--subHeading);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.service_investment_area .service_investment_box p {
+  color: #000;
+  font-weight: 500;
+  font-size: var(--bodySecondaryFontSize);
+}
+
+.service_investment_area .service_investment_box .btn-border {
+  border-width: 1px;
+  margin-top: 1rem;
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
+  color: #fff;
+}
+.service_investment_area .service_investment_box .btn-border:hover {
+  background: #fff;
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+.service_investment_area_support_4543 .Image_wrapper {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 30px;
+}
+.prevArrow_wrape {
+  position: absolute;
+  z-index: 1;
+  top: 115%;
+  transform: translateY(-50%);
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 0px;
+  padding: 0.26rem 0.4rem;
+  margin: 0;
+  margin-left: 5rem;
+  background: transparent;
+}
+.prevArrow_wrape:hover {
+  border: 1px solid var(--primaryColor);
+  background: var(--primaryColor);
+  color: #fff;
+}
+
+.nextArrow_wrape {
+  position: absolute;
+  z-index: 1;
+  left: 21%;
+  top: 115%;
+  transform: translateY(-50%);
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 0px;
+  padding: 0.26rem 0.4rem;
+  margin: 0;
+  background: transparent;
+}
+.nextArrow_wrape:hover {
+  border: 1px solid var(--primaryColor);
+  background: var(--primaryColor);
+  color: #fff;
+}
+
+/*Responsive*/
+@media (min-width: 1600px) {
+  .service_investment_area_support_4543 .container {
+    max-width: 70%;
+  }
+}
+@media (max-width: 995px) {
+  .service_investment_area_support_4543 .InvestMent_img1 {
+    width: 100%;
+  }
+  .MobileCOl {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .service_investment_area .service_investment_box {
+    margin-top: 30px;
+  }
+  .service_investment_area .service_investment_box {
+    padding: 0;
+  }
+  .prevArrow_wrape {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .service_investment_area {
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_investment_area .service_investment_box {
+    padding: 0 2rem 0 2rem;
+  }
+  .prevArrow_wrape {
+    margin-left: 2rem;
+  }
+}

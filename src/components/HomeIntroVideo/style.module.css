@@ -1,0 +1,19 @@
+.VIdeoIntroSec {
+  margin-top: 80px;
+}
+.VIdeo_wraper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.Intro_Video_32 {
+  max-height: 500px;
+  margin-top: 50px;
+}
+
+@media (max-width: 400px) {
+  .Intro_Video_32 {
+  }
+}

@@ -1,0 +1,20 @@
+.imgContainer {
+  /* position: relative; */
+}
+.ImgDetails {
+  position: absolute;
+  color: var(--primaryColor);
+  font-size: var(--subSecHeading);
+  font-weight: 600;
+  /* padding: 15px 15px; */
+  /* From https://css.glass */
+  background: rgba(0, 255, 120, 0);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.4px);
+  -webkit-backdrop-filter: blur(11.4px);
+  padding: 2px 10px;
+}
+.ChangeText {
+  float: right;
+}

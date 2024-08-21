@@ -1,0 +1,83 @@
+/* ===================== SERVICE ======================*/
+.service_maintenance_area {
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.service_maintenance_area img {
+  position: relative;
+  z-index: -1;
+}
+.service_maintenance_area .service_maintenance_box {
+  text-align: right;
+  padding: 0 5rem 0 2rem;
+}
+.service_maintenance_area img {
+  z-index: 2;
+}
+.service_maintenance_area .service_maintenance_box h3 {
+  color: #000;
+  font-size: var(--subHeading);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+/* .service_maintenance_area .service_maintenance_box h3::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #000;
+  width: 30%;
+  right: -180px;
+  top: 50%;
+} */
+.service_maintenance_area .service_maintenance_box p {
+  color: #000;
+  font-weight: 500;
+  font-size: var(--bodySecondaryFontSize);
+}
+
+.service_maintenance_area .service_maintenance_box .btn-border {
+  border-width: 1px;
+  margin-top: 1rem;
+  background: var(--primaryColor);
+  border-color: var(--primaryColor);
+  color: #fff;
+}
+.service_maintenance_area .service_maintenance_box .btn-border:hover {
+  background: #fff;
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+.service_maintenance_area55s .Img_thumb {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+/*Responsive*/
+@media (min-width: 1600px) {
+  .service_maintenance_area55s .container {
+    max-width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .service_maintenance_area .service_maintenance_box {
+    margin-bottom: 30px;
+  }
+  .service_maintenance_area .service_maintenance_box {
+    padding: 0;
+  }
+  .service_maintenance_area .service_maintenance_box h3::after {
+    right: 0;
+    top: 110%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_maintenance_area .service_maintenance_box {
+    padding: 0 2rem 0 0;
+  }
+  .service_maintenance_area .service_maintenance_box h3::after {
+    right: -120px;
+  }
+}

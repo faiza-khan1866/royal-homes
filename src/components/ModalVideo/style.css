@@ -1,0 +1,11 @@
+.videoCOntainer .mfp-iframe {
+  transition: 0.3s;
+}
+.videoCOntainer .mfp-iframe:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+.videoCOntainer .mfp-iframe:active {
+  transition: 0.2s;
+  transform: scale(0.8);
+}
